@@ -1,0 +1,72 @@
+.caixa {
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  .width-and-height {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+  .padding {
+  padding: 20px;
+  }
+  
+  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+  .margin {
+      margin: 30px;
+  
+  }
+  
+  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+  .border {
+      border: 5px solid black;
+  
+  }
+
+ /* 1 - Posicione o Mário acima do Goomba.
+2 - Posicione a tag p para que fique dentro do balão de fala.
+3 - Posicione o balão para que se torne uma fala de Bowser.
+*/ 
+
+
+  .super-mario {
+    width: 100px;
+    position:absolute
+    
+  }
+  
+  .goomba {
+    width: 70px;
+    position: absolute;
+    top: 400px;
+  }
+  
+  .baloon {
+    position: absolute;
+left: 280px;
+height: 100px;
+bottom: 250px;
+z-index: 1;
+
+  }
+  
+  .speach {
+    position: absolute;
+    font-size: 15px;
+    z-index: 2;
+    left: 280px;
+    bottom: 280px;
+  }
+  
+  .bowser {
+    width: 150px;
+    position: absolute;
+    left: 400px;
+    bottom: 150px;
+
+  }
