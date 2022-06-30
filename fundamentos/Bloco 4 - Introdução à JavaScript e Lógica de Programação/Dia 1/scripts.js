@@ -219,6 +219,8 @@
 // Exercício 10 abaixo
 
 
+<<<<<<< dia4
+=======
 // const custoDoProduto = 1;
 // const valorDeVenda = 3;
 
@@ -266,3 +268,4 @@
 
 
 
+>>>>>>> main
