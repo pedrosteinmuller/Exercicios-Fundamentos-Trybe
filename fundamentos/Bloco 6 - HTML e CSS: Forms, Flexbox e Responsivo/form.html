@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Formulário Trybe</title>
+</head>
+
+<body>
+    <h1>Concorra a uma viagem espetacular com a TrybeTip</h1>
+    <fieldset class="form-group">
+        <form>
+            <label for="nome"> Nome:
+                <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome completo" maxlength="40"
+                    minlength="10" required />
+            </label>
+            <br /><br />
+            <label for="email">E-mail:
+                <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu e-mail" maxlength="50"
+                    minlength="10" required />
+            </label>
+            <br><br>
+            <div class="Destinos">
+                <label for="destino1" id="destino">
+                    <input type="radio" id="destino1" name="destinos" value="cidade" required>Cidade
+                </label>
+                <label for="destino2" id="destino">
+                    <input type="radio" id="destino2" name="destinos" value="campo" required>Campo
+                </label>
+                <label for="destino3" id="destino">
+                    <input type="radio" id="destino3" name="destinos" value="praia" required>Praia
+                </label>
+                <label for="destino4" id="destino">
+                    <input type="radio" id="destino4" name="destinos" value="montanhas" required>Montanhas
+                </label>
+            </div>
+            <br>
+            <label for="">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                <br>
+                <textarea  name="porque" id="porque" cols="63" rows="10"
+                    placeholder="Seja criativo na sua resposta!"></textarea>
+            </label>
+            <br>
+            <label for="data">Qual a melhor data para realizar sua viagem?
+                <input type="date" name="data" id="data">
+            </label>
+            <br><br>
+            <label for="check">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+            <input  type="checkbox" name="check" id="check" />
+            <br>
+            <label for="concordo">Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos
+                futuros.</label>
+            <input  type="checkbox" name="concordo" id="concordo" required>
+    </fieldset>
+    <br>
+    <button type="submit" id="btn-submit">Enviar informações</button>
+    <button type="button" id="btn-clear">Apagar conteúdo</button>
+    </form>
+</body>
+</html>
