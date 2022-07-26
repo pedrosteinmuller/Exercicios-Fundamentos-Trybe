@@ -60,3 +60,8 @@ const books = [
     releaseYear: 1928,
   },
 ];
+
+const authorWith3DotsOnName = (array) => {
+  return array.find((author) => (author.author.name.split(' ').filter((word) => word.endsWith('.')).length === 3)).name;
+}
+console.log(authorWith3DotsOnName(books));
